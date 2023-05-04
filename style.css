@@ -3,7 +3,7 @@
     background-size: cover;
     opacity: 0.9;
     width: 100%;
-    height: 45vh;
+    height: 40vh;
     position: relative;
     text-align: center;
 }
@@ -25,7 +25,7 @@
 }
 
 #container-1 {
-   background-color: #f0e3d2;
+    background-color: #f0e3d2;
 }
 
 #container-2 {
@@ -37,7 +37,7 @@
 }
 
 .p-title {
-    color: #393119;
+    color: white;
     font-family: 'Libre Caslon Text', serif;
     font-weight: 1500;
     font-style: normal;
@@ -63,4 +63,31 @@
 
 #btn-color {
     background-color: #944f45;
+}
+
+.bg-color {
+    background-color: #000;
+}
+
+.white {
+    color: white;
+}
+
+
+/*hovers*/
+.hover-ig:hover {
+    color: palevioletred;
+}
+
+.hover-wpp:hover {
+    color: green;
+}
+
+.hover-op:hover {
+    opacity: 0.5;
+    color: white;
+}
+
+.hover-op {
+    transition: opacity 0.3s ease;
 }
