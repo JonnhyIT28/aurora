@@ -79,6 +79,10 @@
     color: palevioletred;
 }
 
+.hover-fb:hover {
+    color: blue;
+}
+
 .hover-wpp:hover {
     color: green;
 }
@@ -90,4 +94,8 @@
 
 .hover-op {
     transition: opacity 0.3s ease;
+}
+
+.hover-ig, .hover-fb, .hover-wpp {
+    transition: color 0.3s ease;
 }
