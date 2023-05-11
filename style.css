@@ -46,6 +46,16 @@
     line-height: 1.2;
 }
 
+.p-title2 {
+    color: black;
+    font-family: 'Libre Caslon Text', serif;
+    font-weight: 1500;
+    font-style: normal;
+    text-transform: initial;
+    letter-spacing: 0px;
+    line-height: 1.2;
+}
+
 .p-card-title {
     color: black;
     font-family: 'Libre Caslon Text', serif;
