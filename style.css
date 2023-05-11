@@ -58,13 +58,8 @@
 
 .p-card-title {
     color: black;
-    font-family: 'Libre Caslon Text', serif;
+    font-family: 'Sans-serif', serif;
     font-weight: 1500;
-    font-style: normal;
-    text-transform: initial;
-    letter-spacing: 0px;
-    line-height: 1.2;
-
 }
 
 .p-price {
@@ -140,4 +135,16 @@
 .bg {
     background-image: url("imagenes/fondo1.jpg");
     background-size: cover;
+}
+
+.section-tabula-rasa {
+    padding: 70px 0px;
+}
+
+.svg-size {
+    font-size: 125px;
+}
+
+.bgc {
+    background-color: rgba(0,0,0,0.1);
 }
