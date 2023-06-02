@@ -1,3 +1,15 @@
+* {
+    user-select: none;
+}
+
+.card a, .card p {
+    cursor: pointer;
+}
+
+p {
+    cursor: default;
+}
+
 h1, .h1 {
     font-family: 'Montserrat',Sans-serif;
     font-weight: bold;
@@ -150,6 +162,15 @@ h1, .h1 {
     transition: 0.5s;
 }
 
+.btn-news {
+    transition: 0.5s;
+}
+
+.btn-news:hover {
+    opacity: 0.75;
+    transition: 0.5s;
+}
+
 .p-card-title {
     color: black;
     font-family: 'Poppins', sans-serif;
@@ -223,7 +244,11 @@ h1, .h1 {
     transform: scale(1.1);
 }
 
-.hover-op {
+.hover-logo:hover {
+    opacity: 0.6;
+}
+
+.hover-op, .hover-logo {
     transition: all 0.5s ease;
 }
 
