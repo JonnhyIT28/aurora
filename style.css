@@ -375,3 +375,15 @@ h1, .h1 {
     font-weight: bold;
     padding-left: 0.25rem;
 }
+
+/* CAROUSELS */
+
+.carousel-tn {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+}
+
+.carousel-tn.active {
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.8);
+}
