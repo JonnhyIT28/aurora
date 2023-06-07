@@ -383,10 +383,16 @@ h1, .h1 {
     height: auto;
     cursor: pointer;
     transition: 0.3s;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .carousel-tn.active {
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.8);
+}
+
+.carousel-item {
+    transition-duration: 0.4s; /* Ajusta el valor según tus necesidades */
 }
 
 .discount-color {
