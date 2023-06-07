@@ -107,7 +107,7 @@
     <div class="container pt-5">
         <div class="row pt-5">
             <div class="col">
-                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                <div id="demo" class="carousel slide" data-bs-wrap="false">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
                         <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
@@ -131,12 +131,26 @@
                 </div>
     
                 <div id="carouselThumbnails" class="d-flex justify-content-center align-items-center p-3">
-                    <img src="imagenes/vestidon1.png" alt="Miniatura 1" onclick="changeSlide(0)" class="carousel-tn me-3 rounded active" data-slide-to="0">
+                    <img src="imagenes/vestidon1.png" alt="Miniatura 1" onclick="changeSlide(0)" class="carousel-tn me-3 rounded active no-transition" data-slide-to="0">
                     <img src="imagenes/vestidon2.png" alt="Miniatura 2" onclick="changeSlide(1)" class="carousel-tn me-3 rounded" data-slide-to="1">
                 </div>
             </div>
-            <div class="col">
-                
+            <div class="col pt-5">
+                <p class="h1 text-dark">Dark Moon - Elegant Dress</p>
+                <p class="h2 text-dark fw-bold">$29.500</p>
+                <p class="h4"><span class="discount-color">6 cuotas sin interes </span>de $4.966,66</p>
+                <form method="post" action="" class="pt-4">
+                    <label for="talle" class="form-label">TALLE</label>
+                    <select class="form-select" id="talle" name="talle">
+                        <option value="s">S</option>
+                        <option value="m">M</option>
+                        <option value="l">L</option>
+                        <option value="xl">XL</option>
+                    </select>
+                    <label for="cantidad" class="form-label pt-2">CANTIDAD</label>
+                    <input id="cantidad" name="cantidad" type="number" placeholder="1" class="form-control" min="1">
+                    <button id="btn-color" type="submit" class="text-light fw-bold btn w-100 btn-news mt-4">Agregar al carrito</button>
+                </form>
             </div>
         </div>
     </div>

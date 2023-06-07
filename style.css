@@ -382,8 +382,13 @@ h1, .h1 {
     width: 100px;
     height: auto;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .carousel-tn.active {
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.8);
+}
+
+.discount-color {
+    color:#944f45;
 }

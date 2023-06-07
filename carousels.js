@@ -9,3 +9,18 @@ function changeSlide(index) {
     }
     thumbnails[index].classList.add("active");
 }
+
+var carouselElement = document.getElementById("demo");
+    carouselElement.addEventListener("slide.bs.carousel", function (event) {
+        if (event.relatedTarget.classList.contains("no-transition")) {
+    event.preventDefault();
+    }
+});
+
+var cantidadInput = document.getElementById("cantidad");
+
+    cantidadInput.addEventListener("input", function() {
+        if (cantidadInput.value < 1) {
+        cantidadInput.value = 1;
+        }
+});
