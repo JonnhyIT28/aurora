@@ -252,6 +252,10 @@ h1, .h1 {
     transition: 0.5s;
 }
 
+.a-white:hover {
+    color: white;
+}
+
 .p-card-title {
     color: black;
     font-family: 'Poppins', sans-serif;

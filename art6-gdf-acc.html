@@ -67,18 +67,13 @@
 
 
 <header>
-    <div class="d-flex flex-column container-fluid justify-content-center align-items-center custom-bg">
-            <p class="p-title display-1">La elegancia de la cultura</p>
-            <p class="h1">La sofisticacion del conocimiento</p>
-    </div>
-    
     <div class="fixed-top">
         <div class="container-fluid bg-color border-bottom">
             <div class="d-flex pt-1 justify-content-around container text-light">
                 <div>
-                    <a class="white hover-ig" target="_blank" href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
-                    <a class="white hover-fb" target="_blank" href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
-                    <a class="white hover-wpp" target="_blank" href="https://www.whatsapp.com/"><i class="bi bi-whatsapp"></i></a>
+                    <a class="white hover-ig" href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+                    <a class="white hover-fb" href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+                    <a class="white hover-wpp" href="https://www.whatsapp.com/"><i class="bi bi-whatsapp"></i></a>
                 </div>
                 
                 <p class="h6">Envios gratis a todo el pais superando los $18.999 !</p>
@@ -109,153 +104,101 @@
 </header>
 
 <body>
-    <div class="d-flex flex-column container align-items-center">
-        <div class="row align-items-center pt-5">
-            <p class="h1">Clothing</p>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row p-4">
-            <div class="col px-4 border-card">
-                <div class="card">
-                    <a class="text-decoration-none" href="art1-dm-dress.html">
-                        <div class="card-image-top">
-                            <img class="img-transition-1" width="100%" height="500px">
-                            <img src="imagenes/vestidon2.png" style="display: none;">
+    <div class="container pt-5">
+        <div class="row pt-5">
+            <div class="col pt-5">
+                <div id="demo" class="carousel slide" data-bs-wrap="false" data-bs-interval="3000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="imagenes/arito1.png" alt="Flower Rings Kit" class="d-block w-100 rounded">
                         </div>
-                        <div class="card-body">
-                            <p class="p-card-title card-title d-flex justify-content-center pt-1">DARK MOON - ELEGANT DRESS</p>
-                            <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$29.500</p>
-                            <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$1.499,83</span></p>
+                        <div class="carousel-item">
+                            <img src="imagenes/arito2.png" alt="Flower Rings Kit" class="d-block w-100 rounded">
                         </div>
-                    </a>
+                    </div>
                 </div>
                 
-            </div>
-            <div class="col px-4 border-card">
-                <div class="card">
-                    <a class="text-decoration-none" href="art2-a-dress.html">
-                        <div class="card-image-top">
-                            <img class="img-transition-2" height="500px" width="100%">
-                            <img src="imagenes/vestidow2.png" style="display: none;">
-                        </div>
-                        <div class="card-body">
-                            <p class="p-card-title card-title d-flex justify-content-center pt-1">ANGEL - WHITE FRENCH DRESS</p>
-                            <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$29.500</p>
-                            <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$1.499,83</span></p>
-                        </div>
-                    </a>
+                <div id="carouselThumbnails" class="d-flex justify-content-center align-items-center p-4 mb-3">
+                    <img src="imagenes/arito1.png" alt="Miniatura 1" onclick="changeSlide(0)" class="carousel-tn me-3 rounded active" data-bs-slide-to="0">
+                    <img src="imagenes/arito2.png" alt="Miniatura 2" onclick="changeSlide(1)" class="carousel-tn me-3 rounded" data-bs-slide-to="1">
                 </div>
             </div>
-            <div class="col px-4 border-card">
-                <div class="card">
-                    <a class="text-decoration-none" href="art3-f-dress.html">
-                        <div class="card-image-top">
-                            <img class="img-transition-3" height="500px" width="100%">
-                            <img src="imagenes/vestidoflower2.png" style="display: none;">
-                        </div>
-                        <div class="card-body">
-                            <p class="p-card-title card-title d-flex justify-content-center pt-1">FLOWER - VINTAGE DRESS</p>
-                            <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$29.500</p>
-                            <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span>cuotas sin interes de <span class="bold-text-l">$4.966,66</span></p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="pt-5 d-flex justify-content-center">
-                <a class="white a-white text-decoration-none" href="ropa.html"><button id="btn-color" type="button" class="text-light fw-bold btn mb-5 btn-news">VIEW ALL</button></a>
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid" id="container-2">
-        <div class="row">
-            <div class="col g-0 overflow-hidden ">
-                <a href="ropa.html">
-                    <div class="row position-r">
-                        <img class="img-fluid hover-op" src="imagenes/libros1.jpg" alt="Libros">
-                        <div class="position-a top-0 start-0 pointer-events-n">
-                            <p class="display-2 text-light">Clothing</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col g-0 overflow-hidden">
-                <a href="accesorios.html">
-                    <div class="row position-r overflow-hidden">
-                        <img class="img-fluid h hover-op" src="imagenes/reading.png" alt="Accesorios">
-                        <div class="position-a top-0 start-0 pointer-events-n">
-                            <p class="display-2 text-light d-inline">Accesorios</p>
-                        </div>
-                    </div>
-                </a>
+            <div class="col pt-5">
+                <p class="h1 text-dark pt-5">Golden Dragon Fly</p>
+                <p class="h2 text-dark fw-bold">$29.500</p>
+                <p class="h5 pt-2"><span class="discount-color">6 cuotas sin interes </span>de $4.966,66</p>
+                <form method="post" action="" class="pt-4">
+                    <label for="talle" class="form-label">TALLE</label>
+                    <select class="form-select" id="talle" name="talle">
+                        <option value="s">S</option>
+                        <option value="m">M</option>
+                        <option value="l">L</option>
+                        <option value="xl">XL</option>
+                    </select>
+                    <label for="cantidad" class="form-label pt-3">CANTIDAD</label>
+                    <input id="cantidad" name="cantidad" type="number" placeholder="1" class="form-control" min="1">
+                    <button id="btn-color" type="submit" class="text-light fw-bold btn w-100 btn-news mt-5">Agregar al carrito</button>
+                    <button type="submit" class="text-light fw-bold btn w-100 btn-news mt-2 btn-dark">Comprar ahora</button>
+                </form>
             </div>
         </div>
     </div>
-
-    <div class="d-flex flex-column container align-items-center">
-        <div class="row align-items-center pt-5">
-            <p class="h1">Accesorios</p>
-        </div>
+    <div class="container border-top">
+        <p class="h1 pt-4 d-flex justify-content-center text-dark">Recomendado para ti</p>
     </div>
-
     <div class="container">
-        <div class="row p-4">
-            <div class="col px-4 border-card">
-                <div class="card">
-                    <a class="text-decoration-none" href="art4-tvb-acc.html">
-                        <div class="card-image-top">
-                            <img class="img-transition-4" width="100%" height="500px">
-                            <img src="imagenes/mochila2.png" style="display: none;">
-                        </div>
-                        <div class="card-body">
-                            <p class="p-card-title card-title d-flex justify-content-center pt-1">TRAVELLER VINTAGE BAG</p>
-                            <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$29.500</p>
-                            <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$1.499,83</span></p>
-                        </div>
-                    </a>
+        <div class="container pt-4">
+            <div class="row p-4">
+                <div class="col px-4 border-card">
+                    <div class="card">
+                        <a class="text-decoration-none" href="art1-dm-dress.html">
+                            <div class="card-image-top">
+                                <img class="img-transition-1" width="100%" height="500px">
+                                <img src="imagenes/vestidon2.png" style="display: none;">
+                            </div>
+                            <div class="card-body">
+                                <p class="p-card-title card-title d-flex justify-content-center pt-1">DARK MOON - ELEGANT DRESS</p>
+                                <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$29.500</p>
+                                <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$1.499,83</span></p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="col px-4 border-card">
-                <div class="card">
-                    <a class="text-decoration-none" href="art5-frk-acc.html">
-                        <div class="card-image-top">
-                            <img class="img-transition-5" height="500px" width="100%">
-                            <img src="imagenes/anillos2.png" style="display: none;">
-                        </div>
-                        <div class="card-body">
-                            <p class="p-card-title card-title d-flex justify-content-center pt-1">FLOWER RINGS KIT</p>
-                            <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$29.500</p>
-                            <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$1.499,83</span></p>
-                        </div>
-                    </a>
+                <div class="col px-4 border-card">
+                    <div class="card">
+                        <a class="text-decoration-none" href="index.html">
+                            <div class="card-image-top">
+                                <img class="img-transition-4" width="100%" height="500px">
+                                <img src="imagenes/mochila2.png" style="display: none;">
+                            </div>
+                            <div class="card-body">
+                                <p class="p-card-title card-title d-flex justify-content-center pt-1">TRAVELLER VINTAGE BAG</p>
+                                <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$29.500</p>
+                                <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$1.499,83</span></p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="col px-4 border-card">
-                <div class="card">
-                    <a class="text-decoration-none" href="art6-gdf-acc.html">
-                        <div class="card-image-top">
-                            <img class="img-transition-6" height="500px" width="100%">
-                            <img src="imagenes/arito2.png" style="display: none;">
-                        </div>
-                        <div class="card-body">
-                            <p class="p-card-title card-title d-flex justify-content-center pt-1">GOLDEN DRAGON FLY</p>
-                            <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$29.500</p>
-                            <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span>cuotas sin interes de <span class="bold-text-l">$1.499,83</span></p>
-                        </div>
-                    </a>
+                <div class="col px-4 border-card">
+                    <div class="card">
+                        <a class="text-decoration-none" href="art2-a-dress.html">
+                            <div class="card-image-top">
+                                <img class="img-transition-2" height="500px" width="100%">
+                                <img src="imagenes/vestidow2.png" style="display: none;">
+                            </div>
+                            <div class="card-body">
+                                <p class="p-card-title card-title d-flex justify-content-center pt-1">ANGEL - WHITE FRENCH DRESS</p>
+                                <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$29.500</p>
+                                <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$1.499,83</span></p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            </div>
-
-            <div class="pt-5 d-flex justify-content-center">
-                <a class="white a-white text-decoration-none" href="accesorios.html"><button id="btn-color" type="button" class="text-light fw-bold btn mb-5 btn-news">VIEW ALL</button></a>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid bg-color pt-1">
+    <div class="container-fluid bg-color pt-1 mt-5">
         <div class="p-title d-flex flex-column align-items-center">
             <div class="row d-flex align-items-center pt-5">
                 <p class="h1">Subscribite a nuestro Newsletter</p>
@@ -278,7 +221,6 @@
             </form>
         </div>
     </div>
-</div>
 
     <div class="container-fluid">
         <div class="row">
@@ -301,11 +243,10 @@
     </div>
 </body>
 
-
 <footer class="bgc container-fluid">
     <div class="d-flex flex-column container text-dark p-5">
         <div class="d-flex col justify-content-center p-1">
-            <p>Laravel Developer - Bootstrap / PHP / Laravel / MySQL /  Git / Github / AWS Cloud Practitioner</p>
+            <p>PHP Developer - Bootstrap / Laravel / MySQL /  Git / Github / AWS Cloud Practitioner</p>
         </div>
         <div class="row border-bottom">
             <div class="d-flex col justify-content-center p-2">
