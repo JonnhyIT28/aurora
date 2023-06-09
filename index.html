@@ -13,7 +13,9 @@
 
     <script src="carousels.js"></script>
 
+    <!-- CSS-->
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="menu-resp.css">
 
     <!--SVG ICONS-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -67,12 +69,18 @@
 
 
 <header>
-    <div class="d-flex flex-column container-fluid justify-content-center align-items-center custom-bg">
-            <p class="p-title display-1">La elegancia de la cultura</p>
-            <p class="h1">La sofisticacion del conocimiento</p>
+    <div class="container-fluid col">
+        <div class="row">
+            <div class="d-flex flex-column justify-content-center align-items-center custom-bg">
+                <p class="p-title display-1">La elegancia de la cultura</p>
+                <p class="h1">La sofisticacion del conocimiento</p>
+            </div>
+        </div>
     </div>
+        
     
-    <div class="fixed-top">
+    
+    <div class="fixed-top menu-resp">
         <div class="container-fluid bg-color border-bottom">
             <div class="d-flex pt-1 justify-content-around container text-light">
                 <div>
@@ -81,25 +89,25 @@
                     <a class="white hover-wpp" target="_blank" href="https://www.whatsapp.com/"><i class="bi bi-whatsapp"></i></a>
                 </div>
                 
-                <p class="h6">Envios gratis a todo el pais superando los $18.999 !</p>
-                <p class="h6">3 y 6 cuotas sin interés</p>
+                <p class="h6 menu-resp">Envios gratis a todo el pais superando los $18.999 !</p>
+                <p class="h6 menu-resp">3 y 6 cuotas sin interés</p>
             </div>
         </div>
         <div class="container-fluid bg-color">
             <div class="d-flex justify-content-around container text-light"> 
-                <p class="p-title pt-2 h1 hover-logo"><a class="text-decoration-none text-light" href="index.html">Aurora</a></p>
-                <ul class="pt-3 nav nav-pills px-5">
+                <p class="p-title pt-2 h1 hover-logo logo-resp"><a class="text-decoration-none text-light" href="index.html">Aurora</a></p>
+                <ul class="pt-2 nav nav-pills px-5">
                     <li class="nav-item">
-                        <a href="collection.html" class="p-title hover-op white nav-link">Shop All</a>
+                        <a href="collection.html" class="link-menu menu-resp hover-op nav-link">Shop All</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a href="ropa.html" class="p-title hover-op white nav-link">Clothing</a>
+                        <a href="ropa.html" class="link-menu menu-resp hover-op nav-link">Clothing</a>
                     </li>
                     <li class="nav-item">
-                        <a href="accesorios.html" class="p-title hover-op white nav-link">Accesorios</a>
+                        <a href="accesorios.html" class="link-menu link-menu-resp hover-op nav-link">Accesorios</a>
                     </li>
                 </ul>
-                <div class="pt-3 p-title white h3">
+                <div class="pt-3 p-title white h3 logo-resp">
                     <i class="hover-op bi bi-search"></i>
                     <i class="hover-op bi bi-cart"></i>
                 </div>
@@ -111,13 +119,13 @@
 <body>
     <div class="d-flex flex-column container align-items-center">
         <div class="row align-items-center pt-5">
-            <p class="h1">Clothing</p>
+            <p class="display-1">Clothing</p>
         </div>
     </div>
 
     <div class="container">
         <div class="row p-4">
-            <div class="col px-4 border-card">
+            <div class="col-12 col-md-12 col-lg-4 px-4 border-card pt-5">
                 <div class="card">
                     <a class="text-decoration-none" href="art1-dm-dress.html">
                         <div class="card-image-top">
@@ -133,7 +141,7 @@
                 </div>
                 
             </div>
-            <div class="col px-4 border-card">
+            <div class="col-12 col-md-12 col-lg-4 px-4 border-card pt-5">
                 <div class="card">
                     <a class="text-decoration-none" href="art2-a-dress.html">
                         <div class="card-image-top">
@@ -148,7 +156,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col px-4 border-card">
+            <div class="col-12 col-md-12 col-lg-4 px-4 border-card pt-5">
                 <div class="card">
                     <a class="text-decoration-none" href="art3-f-dress.html">
                         <div class="card-image-top">
@@ -170,9 +178,9 @@
         </div>
     </div>
 
-    <div class="container-fluid" id="container-2">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col g-0 overflow-hidden ">
+            <div class="col-12 col-lg-6 overflow-hidden ">
                 <a href="ropa.html">
                     <div class="row position-r">
                         <img class="img-fluid hover-op" src="imagenes/libros1.jpg" alt="Libros">
@@ -182,10 +190,10 @@
                     </div>
                 </a>
             </div>
-            <div class="col g-0 overflow-hidden">
+            <div class="col-12 col-lg-6 overflow-hidden">
                 <a href="accesorios.html">
                     <div class="row position-r overflow-hidden">
-                        <img class="img-fluid h hover-op" src="imagenes/reading.png" alt="Accesorios">
+                        <img class="img-fluid hover-op" src="imagenes/reading.png" alt="Accesorios">
                         <div class="position-a top-0 start-0 pointer-events-n">
                             <p class="display-2 text-light d-inline">Accesorios</p>
                         </div>
@@ -197,13 +205,13 @@
 
     <div class="d-flex flex-column container align-items-center">
         <div class="row align-items-center pt-5">
-            <p class="h1">Accesorios</p>
+            <p class="display-1">Accesorios</p>
         </div>
     </div>
 
     <div class="container">
         <div class="row p-4">
-            <div class="col px-4 border-card">
+            <div class="col-12 col-md-12 col-lg-4 px-4 pt-5 border-card">
                 <div class="card">
                     <a class="text-decoration-none" href="art4-tvb-acc.html">
                         <div class="card-image-top">
@@ -218,7 +226,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col px-4 border-card">
+            <div class="col-12 col-md-12 col-lg-4 px-4 pt-5 border-card">
                 <div class="card">
                     <a class="text-decoration-none" href="art5-frk-acc.html">
                         <div class="card-image-top">
@@ -233,7 +241,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col px-4 border-card">
+            <div class="col-12 col-md-12 col-lg-4 px-4 pt-5 border-card">
                 <div class="card">
                     <a class="text-decoration-none" href="art6-gdf-acc.html">
                         <div class="card-image-top">
@@ -255,22 +263,22 @@
         </div>
     </div>
 
-    <div class="container-fluid bg-color pt-1">
+    <div class="container-fluid bg-color pt-1 col-12">
         <div class="p-title d-flex flex-column align-items-center">
             <div class="row d-flex align-items-center pt-5">
-                <p class="h1">Subscribite a nuestro Newsletter</p>
+                <p class="h1 text-center">Subscribite a nuestro Newsletter</p>
             </div>
             <div class="row d-flex align-items-center pt-2 pb-3">
-                <p class="h6">No te pierdas nuestras ofertas y descuentos semanales !</p>
+                <p class="h6 text-center">No te pierdas nuestras ofertas y descuentos semanales!</p>
             </div>
         </div>    
-        <div class="container d-flex justify-content-center align-items-center">
-            <form action="">
-                <div class="mb-2 mt-2">
-                    <input type="text" class="form-w form-control" id="nombre" placeholder="Ingresa tu nombre" name="nombre">
+        <div class="d-flex justify-content-center align-items-center">
+            <form action="" class="col-12 px-4">
+                <div class="mb-2">
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" name="nombre">
                 </div>
                 <div class="mb-3">
-                    <input type="email" class="form-w form-control" id="email" placeholder="Ingresa tu email" name="email">
+                    <input type="email" class="form-control" id="email" placeholder="Ingresa tu email" name="email">
                 </div>
                 <div class="d-grid">
                     <button id="btn-color" type="submit" class="text-light fw-bold btn mb-5 btn-news">Subscribirse</button>
