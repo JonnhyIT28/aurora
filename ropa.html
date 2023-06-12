@@ -11,7 +11,9 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
+    <!--CSS-->
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="menu-resp.css">
 
     <!--SVG ICONS-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -69,34 +71,34 @@
             <p class="p-title display-1">Clothing</p>
     </div>
     
-    <div class="fixed-top">
+    <div class="fixed-top menu-resp">
         <div class="container-fluid bg-color border-bottom">
-            <div class="d-flex pt-1 justify-content-around container text-light">
+            <div class="d-flex pt-1 justify-content-around container text-light pl-2">
                 <div>
-                    <a class="white hover-ig" href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
-                    <a class="white hover-fb" href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
-                    <a class="white hover-wpp" href="https://www.whatsapp.com/"><i class="bi bi-whatsapp"></i></a>
+                    <a class="white hover-ig" target="_blank" href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+                    <a class="white hover-fb" target="_blank" href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+                    <a class="white hover-wpp" target="_blank" href="https://www.whatsapp.com/"><i class="bi bi-whatsapp"></i></a>
                 </div>
                 
-                <p class="h6">Envios gratis a todo el pais superando los $18.999 !</p>
-                <p class="h6">3 y 6 cuotas sin interés</p>
+                <p class="h6 menu-resp">Envios gratis a todo el pais superando los $18.999 !</p>
+                <p class="h6 menu-resp ">3 y 6 cuotas sin interés</p>
             </div>
         </div>
         <div class="container-fluid bg-color">
-            <div class="d-flex justify-content-around container text-light"> 
-                <p class="p-title pt-2 h1 hover-logo"><a class="text-decoration-none text-light" href="index.html">Aurora</a></p>
-                <ul class="pt-3 nav nav-pills px-5">
+            <div class="d-flex justify-content-around container text-light pt-2"> 
+                <p class="logo h2 hover-logo logo-resp"><a class="text-decoration-none text-light" href="index.html">Aurora</a></p>
+                <ul class="nav nav-pills px-4">
                     <li class="nav-item">
-                        <a href="collection.html" class="p-title hover-op white nav-link">Shop All</a>
+                        <a href="collection.html" class="link-menu menu-resp hover-op nav-link">Shop All</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a href="ropa.html" class="p-title hover-op white nav-link">Clothing</a>
+                        <a href="ropa.html" class="link-menu menu-resp hover-op nav-link">Clothing</a>
                     </li>
                     <li class="nav-item">
-                        <a href="accesorios.html" class="p-title hover-op white nav-link">Accesorios</a>
+                        <a href="accesorios.html" class="link-menu link-menu-resp hover-op nav-link">Accesorios</a>
                     </li>
                 </ul>
-                <div class="pt-3 p-title white h3">
+                <div class="p-title white h3 logo-resp">
                     <i class="hover-op bi bi-search"></i>
                     <i class="hover-op bi bi-cart"></i>
                 </div>
@@ -108,7 +110,7 @@
 <body>
     <div class="container pt-4">
         <div class="row p-4">
-            <div class="col px-4 border-card">
+            <div class="col-12 col-lg-4 px-4 border-card">
                 <div class="card">
                     <a class="text-decoration-none" href="art1-dm-dress.html">
                         <div class="card-image-top">
@@ -123,7 +125,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col px-4 border-card">
+            <div class="col-12 col-lg-4 px-4 border-card">
                 <div class="card">
                     <a class="text-decoration-none" href="art2-a-dress.html">
                         <div class="card-image-top">
@@ -138,7 +140,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col px-4 border-card">
+            <div class="col-12 col-lg-4 px-4 border-card">
                 <div class="card">
                     <a class="text-decoration-none" href="art3-f-dress.html">
                         <div class="card-image-top">
@@ -156,22 +158,22 @@
         </div>
     </div>
 
-    <div class="container-fluid bg-color pt-1">
+    <div class="container-fluid bg-color pt-1 col-12">
         <div class="p-title d-flex flex-column align-items-center">
             <div class="row d-flex align-items-center pt-5">
-                <p class="h1">Subscribite a nuestro Newsletter</p>
+                <p class="h1 text-center">Subscribite a nuestro Newsletter</p>
             </div>
             <div class="row d-flex align-items-center pt-2 pb-3">
-                <p class="h6">No te pierdas nuestras ofertas y descuentos semanales !</p>
+                <p class="h6 text-center">No te pierdas nuestras ofertas y descuentos semanales!</p>
             </div>
         </div>    
-        <div class="container d-flex justify-content-center align-items-center">
-            <form action="">
-                <div class="mb-2 mt-2">
-                    <input type="text" class="form-w form-control" id="nombre" placeholder="Ingresa tu nombre" name="nombre">
+        <div class="d-flex justify-content-center align-items-center">
+            <form action="" class="col-12 px-4 custom-form">
+                <div class="mb-2">
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" name="nombre">
                 </div>
                 <div class="mb-3">
-                    <input type="email" class="form-w form-control" id="email" placeholder="Ingresa tu email" name="email">
+                    <input type="email" class="form-control" id="email" placeholder="Ingresa tu email" name="email">
                 </div>
                 <div class="d-grid">
                     <button id="btn-color" type="submit" class="text-light fw-bold btn mb-5 btn-news">Subscribirse</button>

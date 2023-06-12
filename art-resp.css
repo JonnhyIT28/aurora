@@ -1,0 +1,13 @@
+@media only screen and (max-width: 784px) {
+    .title-resp {
+        font-size: 22px;
+    }
+
+    .price-resp {
+        font-size: 20px;
+    }
+
+    .cuotas-resp {
+        font-size: 15px;
+    }
+}
