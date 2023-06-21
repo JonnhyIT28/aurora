@@ -23,7 +23,8 @@
 
             <div class="container">
                 <div class="row p-4">
-                    <div class="col-12 col-lg-4 px-4 border-card pt-5">
+
+                    <article class="col-12 col-lg-4 px-4 border-card pt-5">
                         <div class="card">
                             <a class="text-decoration-none" href="art1-dm-dress.php">
                                 <div class="card-image-top">
@@ -37,9 +38,9 @@
                                 </div>
                             </a>
                         </div>
-                        
-                    </div>
-                    <div class="col-12 col-lg-4 px-4 border-card pt-5">
+                    </article>
+
+                    <article class="col-12 col-lg-4 px-4 border-card pt-5">
                         <div class="card">
                             <a class="text-decoration-none" href="art2-a-dress.php">
                                 <div class="card-image-top">
@@ -53,8 +54,9 @@
                                 </div>
                             </a>
                         </div>
-                    </div>
-                    <div class="col-12 col-lg-4 px-4 border-card pt-5">
+                    </article>
+
+                    <article class="col-12 col-lg-4 px-4 border-card pt-5">
                         <div class="card">
                             <a class="text-decoration-none" href="art3-f-dress.php">
                                 <div class="card-image-top">
@@ -68,16 +70,17 @@
                                 </div>
                             </a>
                         </div>
-                    </div>
+                    </article>
 
                     <div class="pt-5 d-flex justify-content-center">
                         <a class="white a-white text-decoration-none" href="ropa.html"><button id="btn-color" type="button" class="text-light fw-bold btn mb-5 btn-news">VIEW ALL</button></a>
                     </div>
+
                 </div>
             </div>
         </section>
 
-        <div class="container-fluid">
+        <section class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="row">
@@ -104,7 +107,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         
 
         <section>
@@ -116,7 +119,8 @@
 
             <div class="container">
                 <div class="row p-4">
-                    <div class="col-12 col-md-12 col-lg-4 px-4 pt-2 border-card">
+
+                    <article class="col-12 col-md-12 col-lg-4 px-4 pt-2 border-card">
                         <div class="card">
                             <a class="text-decoration-none" href="art4-tvb-acc.php">
                                 <div class="card-image-top">
@@ -130,8 +134,9 @@
                                 </div>
                             </a>
                         </div>
-                    </div>
-                    <div class="col-12 col-md-12 col-lg-4 px-4 pt-2 border-card">
+                    </article>
+
+                    <article class="col-12 col-md-12 col-lg-4 px-4 pt-2 border-card">
                         <div class="card">
                             <a class="text-decoration-none" href="art5-frk-acc.php">
                                 <div class="card-image-top">
@@ -145,8 +150,9 @@
                                 </div>
                             </a>
                         </div>
-                    </div>
-                    <div class="col-12 col-md-12 col-lg-4 px-4 pt-2 border-card">
+                    </article>
+
+                    <article class="col-12 col-md-12 col-lg-4 px-4 pt-2 border-card">
                         <div class="card">
                             <a class="text-decoration-none" href="art6-gdf-acc.php">
                                 <div class="card-image-top">
@@ -160,11 +166,12 @@
                                 </div>
                             </a>
                         </div>
-                    </div>
+                    </article>
 
                     <div class="pt-5 d-flex justify-content-center">
                         <a class="white a-white text-decoration-none" href="accesorios.html"><button id="btn-color" type="button" class="text-light fw-bold btn mb-5 btn-news">VIEW ALL</button></a>
                     </div>
+                    
                 </div>
             </div>
         </section>

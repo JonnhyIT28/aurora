@@ -21,7 +21,7 @@
                     </div>
                 <?php   
                     if(isset($_GET['ok'])) {
-                        echo "<h2 class='text-center white'>Mensaje enviado con exito ! </h2>";
+                        echo "<h2 class='text-center white'>Subscripcion exitosa ! </h2>";
                     } 
                 ?>
                 </form>
