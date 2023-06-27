@@ -1,7 +1,3 @@
-<?php
-    include('menu.php');
-?>
-
     <header>
         <div class="d-flex flex-column container-fluid justify-content-center align-items-center custom-bg3">
                 <p class="p-title display-1">Accesorios</p>
@@ -14,7 +10,7 @@
 
                 <article class="col-12 col-lg-4 px-4 mt-5 border-card">
                     <div class="card">
-                        <a class="text-decoration-none" href="art4-tvb-acc.php">
+                        <a class="text-decoration-none" href="index.php?ruta=art4">
                             <div class="card-image-top">
                                 <img class="img-transition-4" width="100%" height="500px">
                                 <img src="imagenes/mochila2.png" style="display: none;">
@@ -30,7 +26,7 @@
 
                 <article class="col-12 col-lg-4 px-4 mt-5 border-card">
                     <div class="card">
-                        <a class="text-decoration-none" href="art5-frk-acc.php">
+                        <a class="text-decoration-none" href="index.php?ruta=art5">
                             <div class="card-image-top">
                                 <img class="img-transition-5" height="500px" width="100%">
                                 <img src="imagenes/anillos2.png" style="display: none;">
@@ -46,7 +42,7 @@
 
                 <article class="col-12 col-lg-4 px-4 mt-5 border-card">
                     <div class="card">
-                        <a class="text-decoration-none" href="art6-gdf-acc.php">
+                        <a class="text-decoration-none" href="index.php?ruta=art6">
                             <div class="card-image-top">
                                 <img class="img-transition-6" height="500px" width="100%">
                                 <img src="imagenes/arito2.png" style="display: none;">
@@ -63,9 +59,4 @@
             </div>
         </div>
     </body>
-
-<?php
-    include('footer.php');
-?>
-
 </html>

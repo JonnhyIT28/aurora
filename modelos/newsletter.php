@@ -2,7 +2,7 @@
 //Conexion a Base de datos
 include ("conexion.php");
 
-//Datos del form Newsletter
+//Datos del Form Newsletter
 $nombre_form = $_POST['nombre'];
 $email_form = $_POST['email'];
 

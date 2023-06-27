@@ -1,10 +1,6 @@
+/*Cursores*/
 * {
     user-select: none;
-}
-
-
-.pl-2 {
-    padding-left: 20px;
 }
 
 .card a, .card p {
@@ -20,11 +16,15 @@ h1, .h1 {
     font-weight: bold;
 }
 
+/*CUSTOM BOOTSTRAP*/
+.pl-2 {
+    padding-left: 20px;
+}
 
 /*TRANSICIONES DEE IMAGENES DE LOS CARDS*/
 .img-transition-1 {
     transition: all 0.5s;
-    background-image: url('imagenes/vestidon1.png');
+    background-image: url('../imagenes/vestidon1.png');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -32,12 +32,12 @@ h1, .h1 {
 }
 
 .img-transition-1:hover {
-    background-image: url('imagenes/vestidon2.png');
+    background-image: url('../imagenes/vestidon2.png');
 }
 
 .img-transition-2 {
     transition: all 0.5s;
-    background-image: url('imagenes/vestidow1.png');
+    background-image: url('../imagenes/vestidow1.png');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -45,12 +45,12 @@ h1, .h1 {
 }
 
 .img-transition-2:hover {
-    background-image: url('imagenes/vestidow2.png');
+    background-image: url('../imagenes/vestidow2.png');
 }
 
 .img-transition-3 {
     transition: all 0.5s;
-    background-image: url('imagenes/vestidoflower1.png');
+    background-image: url('../imagenes/vestidoflower1.png');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -58,12 +58,12 @@ h1, .h1 {
 }
 
 .img-transition-3:hover {
-    background-image: url('imagenes/vestidoflower2.png');
+    background-image: url('../imagenes/vestidoflower2.png');
 }
 
 .img-transition-4 {
     transition: all 0.5s;
-    background-image: url('imagenes/mochila1.png');
+    background-image: url('../imagenes/mochila1.png');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -71,12 +71,12 @@ h1, .h1 {
 }
 
 .img-transition-4:hover {
-    background-image: url('imagenes/mochila2.png');
+    background-image: url('../imagenes/mochila2.png');
 }
 
 .img-transition-5 {
     transition: all 0.5s;
-    background-image: url('imagenes/anillos.png');
+    background-image: url('../imagenes/anillos.png');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -84,12 +84,12 @@ h1, .h1 {
 }
 
 .img-transition-5:hover {
-    background-image: url('imagenes/anillos2.png');
+    background-image: url('../imagenes/anillos2.png');
 }
 
 .img-transition-6 {
     transition: all 0.5s;
-    background-image: url('imagenes/arito1.png');
+    background-image: url('../imagenes/arito1.png');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -97,7 +97,7 @@ h1, .h1 {
 }
 
 .img-transition-6:hover {
-    background-image: url('imagenes/arito2.png');
+    background-image: url('../imagenes/arito2.png');
 }
 
 /*MENU DE SECCIONES CON IMAGENES*/
@@ -107,7 +107,7 @@ h1, .h1 {
 
 /*FONDOS PARA LOS HEADERS DE CADA SITIO*/
 .custom-bg {
-    background-image: url("imagenes/dark1.jpg");
+    background-image: url("../imagenes/dark1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -128,7 +128,6 @@ h1, .h1 {
     z-index: -1;
 }
 
-
 .custom-bg p {
     color: white;
     margin-top: 30px;
@@ -140,7 +139,7 @@ h1, .h1 {
 }
 
 .custom-bg1 {
-    background-image: url("imagenes/fashionable-girl-cafe.jpg");
+    background-image: url("../imagenes/fashionable-girl-cafe.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.9;
@@ -167,7 +166,7 @@ h1, .h1 {
 }
 
 .custom-bg2 {
-    background-image: url("imagenes/reading.png");
+    background-image: url("../imagenes/reading.png");
     background-size: cover;
     background-position: top;
     opacity: 0.9;
@@ -194,7 +193,7 @@ h1, .h1 {
 }
 
 .custom-bg3 {
-    background-image: url("imagenes/pexels-cottonbro-studio-4855369.jpg");
+    background-image: url("../imagenes/pexels-cottonbro-studio-4855369.jpg");
     background-size: cover;
     background-position: center;
     opacity: 0.9;
@@ -361,7 +360,7 @@ h1, .h1 {
 }
 
 .bg {
-    background-image: url("imagenes/fondo1.jpg");
+    background-image: url("../imagenes/fondo1.jpg");
     background-size: cover;
 }
 
