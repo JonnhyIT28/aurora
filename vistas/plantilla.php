@@ -149,7 +149,7 @@
             </div>
         </div>    
         <div class="d-flex justify-content-center align-items-center">
-            <form action="newsletter.php" method="POST" class="col-12 px-4 custom-form">
+            <form action="../modelos/newsletter.php" method="POST" class="col-12 px-4 custom-form">
                 <div class="mb-2">
                     <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" name="nombre">
                 </div>
