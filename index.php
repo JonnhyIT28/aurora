@@ -2,13 +2,13 @@
 
 //-----------MANEJO DE ERRORES-------
 
-//Desactivar muestra de errores 
+//Desactivar muestra de errores (activar al finalizar el debugging)
 
 /*
 ini_set('display_errors', 'off');
 */
 
-error_reporting(E_ALL);
+error_reporting(E_ALL & ~E_WARNING);
 require_once 'vistas/manejo_errores.php';
 
 // Generar un error intencional

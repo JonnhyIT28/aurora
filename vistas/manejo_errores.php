@@ -1,7 +1,7 @@
 <?php
 
 // Función para manejar errores
-function manejo_errores($nivel, $mensaje, $archivo, $linea) {
+function manejoErrores($nivel, $mensaje, $archivo, $linea) {
     switch ($nivel) {
         case E_WARNING:
             $tipo = "Advertencia";
@@ -29,7 +29,7 @@ function manejo_errores($nivel, $mensaje, $archivo, $linea) {
 }
 
 // Establecer manejo_errores como manejador de errores
-set_error_handler('manejo_errores');
+set_error_handler('manejoErrores');
 
 
 

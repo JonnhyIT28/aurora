@@ -149,7 +149,13 @@
             </div>
         </div>    
         <div class="d-flex justify-content-center align-items-center">
-            <form action="../modelos/newsletter.php" method="POST" class="col-12 px-4 custom-form">
+            <form action="" method="POST" class="col-12 px-4 custom-form">
+
+                <?php
+                    require_once 'controladores/ctrNewsletter.php';
+                    $registro = ControladorNewsletter::ctrNewsletter();
+                ?>
+
                 <div class="mb-2">
                     <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" name="nombre">
                 </div>
@@ -159,11 +165,6 @@
                 <div class="d-grid">
                     <button id="btn-color" type="submit" class="text-light fw-bold btn mb-5 btn-news">Subscribirse</button>
                 </div>
-            <?php   
-                if(isset($_GET['ok'])) {
-                    echo "<h2 class='text-center white'>Subscripcion exitosa ! </h2>";
-                } 
-            ?>
             </form>
         </div>
     </div>
