@@ -8,8 +8,8 @@
 ini_set('display_errors', 'off');
 */
 
-error_reporting(E_ALL & ~E_WARNING);
 require_once 'vistas/manejo_errores.php';
+
 
 // Generar un error intencional
 
