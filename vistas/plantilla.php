@@ -65,6 +65,9 @@
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
         <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
     </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+    </svg>
 
     <!--FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -74,7 +77,55 @@
     <title>Aurora</title>
 </head>
 
-<section class="fixed-top menu-resp">
+<section class="fixed-top menu-resp d-sm-none">
+    <div class="container-fluid bg-color border-bottom">
+        <div class="d-flex pt-1 justify-content-center container text-light pl-2">
+            <p class="h6 menu-resp">Envios gratis a todo el pais superando los $35.000 + 3 y 6 cuotas sin interés !</p>
+        </div>
+    </div>
+    <div class="container-fluid bg-color">
+        <div class="d-flex justify-content-around container pt-2">
+            <div class="offcanvas offcanvas-start bg-color w-50" id="menu">
+                <div class="offcanvas-header d-flex justify-content-start border-bottom">
+                    <a class="white hover-ig" target="_blank" href="https://www.instagram.com/"><i class="bi bi-instagram fs-4"></i></a>
+                    <a class="white hover-fb pl-2" target="_blank" href="https://www.facebook.com/"><i class="bi bi-facebook fs-4"></i></a>
+                    <a class="white hover-wpp pl-2" target="_blank" href="https://www.whatsapp.com/"><i class="bi bi-whatsapp fs-4"></i></a>
+                    <button type="button" class="btn-close bg-light" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body w-100">
+                    <nav class="navbar">
+                        <ul class="px-4 d-flex flex-column justify-content-center align-items-center navbar-nav">
+                            <li class="nav-item pb-3 mb-3">
+                                <a title="Coleccion" href="index.php?ruta=coleccion" class="link-menu hover-op text-decoration-none h4">Shop All</a>
+                            </li>
+                            <li class="nav-item pb-3 mb-3">
+                                <a title="Clothing" href="index.php?ruta=clothing" class="link-menu hover-op text-decoration-none h4">Clothing</a>
+                            </li>
+                            <li class="nav-item pb-3 mb-3">
+                                <a title="Accesorios" href="index.php?ruta=accesorios" class="link-menu hover-op text-decoration-none h4">Accesorios</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <a href="#menu" class="text-decoration-none">
+                <div class="p-title white h3 logo-resp" data-bs-toggle="offcanvas" data-bs-target="#menu">
+                    <i class="bi bi-list hover-op"></i>
+                </div>
+            </a>
+
+            <p class="logo h2 hover-logo logo-resp"><a class="text-decoration-none text-light" href="index.php">Aurora</a></p>
+
+            <div class="p-title white h3 logo-resp">
+                <i class="hover-op bi bi-search"></i>
+                <i class="hover-op bi bi-cart"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="fixed-top menu-resp d-none d-sm-block">
     <div class="container-fluid bg-color border-bottom">
         <div class="d-flex pt-1 justify-content-around container text-light pl-2">
             <div>
