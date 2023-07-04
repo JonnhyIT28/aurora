@@ -41,7 +41,7 @@
                         </div>
                     </article>
 
-                    <article class="col-12 col-lg-4 px-4 mt-5 border-card">
+                    <article class="col-12 col-lg-4 px-4 mt-5 border-card pb-5">
                         <div class="card">
                             <a class="text-decoration-none" href="index.php?ruta=art3">
                                 <div class="card-image-top">

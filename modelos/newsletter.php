@@ -26,9 +26,10 @@ $nombre_news = $_POST['nombre'];
 $email_news = $_POST['email'];
 
 // Crear objeto Email y llamar al método enviarCorreo()
-$email = new Email($nombre_news, $email_news);
-$email->enviarCorreo();
-
+if (isset ($_POST ['nombre'])) {
+    $email = new Email($nombre_news, $email_news);
+    $email->enviarCorreo();
+}
 
 
 //      --------QUERY-------

@@ -28,7 +28,7 @@
                                     <img src="imagenes/vestidon2.png" style="display: none;">
                                 </div>
                                 <div class="card-body">
-                                    <p class="p-card-title card-title d-flex justify-content-center pt-1">DARK MOON - ELEGANT DRESS</p>
+                                    <p class="p-card-title card-title d-flex justify-content-center pt-1 text-center">DARK MOON - ELEGANT DRESS</p>
                                     <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$29.500</p>
                                     <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$1.499,83</span></p>
                                 </div>
@@ -44,7 +44,7 @@
                                     <img src="imagenes/vestidow2.png" style="display: none;">
                                 </div>
                                 <div class="card-body">
-                                    <p class="p-card-title card-title d-flex justify-content-center pt-1">ANGEL - WHITE FRENCH DRESS</p>
+                                    <p class="p-card-title card-title d-flex justify-content-center pt-1 text-center">ANGEL - WHITE FRENCH DRESS</p>
                                     <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$29.500</p>
                                     <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$1.499,83</span></p>
                                 </div>
@@ -60,7 +60,7 @@
                                     <img src="imagenes/vestidoflower2.png" style="display: none;">
                                 </div>
                                 <div class="card-body">
-                                    <p class="p-card-title card-title d-flex justify-content-center pt-1">FLOWER - VINTAGE DRESS</p>
+                                    <p class="p-card-title card-title d-flex justify-content-center pt-1 text-center">FLOWER - VINTAGE DRESS</p>
                                     <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$29.500</p>
                                     <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span>cuotas sin interes de <span class="bold-text-l">$4.966,66</span></p>
                                 </div>
@@ -69,7 +69,7 @@
                     </article>
 
                     <div class="pt-5 d-flex justify-content-center">
-                        <a class="white a-white text-decoration-none" href="ropa.html"><button id="btn-color" type="button" class="text-light fw-bold btn mb-5 btn-news">VIEW ALL</button></a>
+                        <a class="white a-white text-decoration-none" href="index.php?ruta=clothing"><button id="btn-color" type="button" class="text-light fw-bold btn mb-5 btn-news">VIEW ALL</button></a>
                     </div>
 
                 </div>
@@ -124,7 +124,7 @@
                                     <img src="imagenes/mochila2.png" style="display: none;">
                                 </div>
                                 <div class="card-body">
-                                    <p class="p-card-title card-title d-flex justify-content-center pt-1">TRAVELLER VINTAGE BAG</p>
+                                    <p class="p-card-title card-title d-flex justify-content-center pt-1 text-center">TRAVELLER VINTAGE BAG</p>
                                     <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$29.500</p>
                                     <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$1.499,83</span></p>
                                 </div>
@@ -140,7 +140,7 @@
                                     <img src="imagenes/anillos2.png" style="display: none;">
                                 </div>
                                 <div class="card-body">
-                                    <p class="p-card-title card-title d-flex justify-content-center pt-1">FLOWER RINGS KIT</p>
+                                    <p class="p-card-title card-title d-flex justify-content-center pt-1 text-center">FLOWER RINGS KIT</p>
                                     <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$29.500</p>
                                     <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$1.499,83</span></p>
                                 </div>
@@ -156,7 +156,7 @@
                                     <img src="imagenes/arito2.png" style="display: none;">
                                 </div>
                                 <div class="card-body">
-                                    <p class="p-card-title card-title d-flex justify-content-center pt-1">GOLDEN DRAGON FLY</p>
+                                    <p class="p-card-title card-title d-flex justify-content-center pt-1 text-center">GOLDEN DRAGON FLY</p>
                                     <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$29.500</p>
                                     <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span>cuotas sin interes de <span class="bold-text-l">$1.499,83</span></p>
                                 </div>

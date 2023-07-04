@@ -77,6 +77,7 @@
     <title>Aurora</title>
 </head>
 
+<!-- MENU RESPONSIVO PARA MOVILES -->
 <section class="fixed-top menu-resp d-sm-none">
     <div class="container-fluid bg-color border-bottom">
         <div class="d-flex pt-1 justify-content-center container text-light pl-2">
@@ -85,6 +86,7 @@
     </div>
     <div class="container-fluid bg-color">
         <div class="d-flex justify-content-around container pt-2">
+            <!--OFFCANVAS MENU-->
             <div class="offcanvas offcanvas-start bg-color w-50" id="menu">
                 <div class="offcanvas-header d-flex justify-content-start border-bottom">
                     <a class="white hover-ig" target="_blank" href="https://www.instagram.com/"><i class="bi bi-instagram fs-4"></i></a>
@@ -108,23 +110,45 @@
                     </nav>
                 </div>
             </div>
-
             <a href="#menu" class="text-decoration-none">
                 <div class="p-title white h3 logo-resp" data-bs-toggle="offcanvas" data-bs-target="#menu">
                     <i class="bi bi-list hover-op"></i>
                 </div>
             </a>
 
+            <!--LOGO-->
             <p class="logo h2 hover-logo logo-resp"><a class="text-decoration-none text-light" href="index.php">Aurora</a></p>
 
-            <div class="p-title white h3 logo-resp">
-                <i class="hover-op bi bi-search"></i>
-                <i class="hover-op bi bi-cart"></i>
+            <!--OFFCANVAS BUSCADOR-->
+            <div class="offcanvas offcanvas-top bg-color w-100" id="search">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close bg-light" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body justify-content-center w-100">
+                    <form>
+                        <input type="text" class="form-control" id="w" placeholder="Que estas buscando ?" name="w" >
+                        <input type="submit" class="form-control mt-2" value="Buscar">
+                    </form>
+                </div>
+            </div>
+
+            <div class="d-flex">
+                <a href="#search" class="text-decoration-none">
+                    <div class="p-title white h3 logo-resp " data-bs-toggle="offcanvas" data-bs-target="#search">
+                        <i class="hover-op bi bi-search"></i>
+                    </div>
+                </a>
+                <a href="#carrito" class="text-decoration-none">
+                    <div class="p-title white h3 logo-resp " data-bs-toggle="offcanvas" data-bs-target="#carrito">
+                        <i class="hover-op bi bi-cart"></i>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
 </section>
 
+<!-- MENU PARA TABLETS Y PC -->
 <section class="fixed-top menu-resp d-none d-sm-block">
     <div class="container-fluid bg-color border-bottom">
         <div class="d-flex pt-1 justify-content-around container text-light pl-2">
@@ -154,9 +178,31 @@
                     </li>
                 </ul>
             </nav>
-            <div class="p-title white h3 logo-resp">
-                <i class="hover-op bi bi-search"></i>
-                <i class="hover-op bi bi-cart"></i>
+
+            <!--OFFCANVAS BUSCADOR-->
+            <div class="offcanvas offcanvas-top bg-color h-25" id="search-lg">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close bg-light" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body justify-content-center">
+                    <form method="POST" action="index.php?ruta=q">
+                        <input type="text" class="form-control mt-2" id="q" placeholder="Que estas buscando ?" name="q" required>
+                        <input type="submit" class="form-control mt-2" value="Buscar">
+                    </form>
+                </div>
+            </div>
+
+            <div class="d-flex">
+                <a href="#search-lg" class="text-decoration-none">
+                    <div class="p-title white h3 logo-resp" data-bs-toggle="offcanvas" data-bs-target="#search-lg">
+                        <i class="hover-op bi bi-search"></i>
+                    </div>
+                </a>
+                <a href="#carrito-lg" class="text-decoration-none">
+                    <div class="p-title white h3 logo-resp" data-bs-toggle="offcanvas" data-bs-target="#carrito-lg">
+                        <i class="hover-op bi bi-cart"></i>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
@@ -171,12 +217,14 @@
             $_GET['ruta'] == "coleccion" ||
             $_GET['ruta'] == "clothing" ||
             $_GET['ruta'] == "accesorios" ||
+            $_GET['ruta'] == "search" ||
             $_GET['ruta'] == "art1" ||
             $_GET['ruta'] == "art2" ||
             $_GET['ruta'] == "art3" ||
             $_GET['ruta'] == "art4" ||
             $_GET['ruta'] == "art5" ||
-            $_GET['ruta'] == "art6"
+            $_GET['ruta'] == "art6" ||
+            $_GET['ruta'] == "q"
         ) {
             include "vistas/paginas/" . $_GET['ruta'] . ".php";
         } else {
