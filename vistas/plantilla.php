@@ -125,8 +125,8 @@
                     <button type="button" class="btn-close bg-light" data-bs-dismiss="offcanvas"></button>
                 </div>
                 <div class="offcanvas-body justify-content-center w-100">
-                    <form>
-                        <input type="text" class="form-control" id="w" placeholder="Que estas buscando ?" name="w" >
+                    <form method="POST" action="index.php?ruta=q">
+                        <input type="text" class="form-control" id="w" placeholder="Que estas buscando ?" name="q" >
                         <input type="submit" class="form-control mt-2" value="Buscar">
                     </form>
                 </div>
@@ -192,6 +192,17 @@
                 </div>
             </div>
 
+            <!--OFFCANVAS CARRITO-->
+            <div class="offcanvas offcanvas-end bg-light h-100 " id="carrito-lg">
+                <div class="offcanvas-header d-flex justify-content-start border-bottom">
+                    <h3 class="text-dark p-title mt-2">Tu Carrito ()</h3>
+                    <button type="button" class="btn-close bg-light" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body justify-content-center">
+                    
+                </div>
+            </div>
+
             <div class="d-flex">
                 <a href="#search-lg" class="text-decoration-none">
                     <div class="p-title white h3 logo-resp" data-bs-toggle="offcanvas" data-bs-target="#search-lg">
@@ -224,7 +235,8 @@
             $_GET['ruta'] == "art4" ||
             $_GET['ruta'] == "art5" ||
             $_GET['ruta'] == "art6" ||
-            $_GET['ruta'] == "q"
+            $_GET['ruta'] == "q" ||
+            $_GET['ruta'] == "carrito"
         ) {
             include "vistas/paginas/" . $_GET['ruta'] . ".php";
         } else {
@@ -262,7 +274,7 @@
                     <input type="email" class="form-control" id="email" placeholder="Ingresa tu email" name="email">
                 </div>
                 <div class="d-grid">
-                    <button id="btn-color" type="submit" class="text-light fw-bold btn mb-5 btn-news">Subscribirse</button>
+                    <button id="" type="submit" class="text-light fw-bold btn btn-custom mb-5">Subscribirse</button>
                 </div>
             </form>
         </div>

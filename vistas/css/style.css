@@ -231,19 +231,6 @@ h1, .h1 {
     transition: 0.5s;
 }
 
-.btn {
-    height: 60px;
-}
-
-.btn-news {
-    transition: 0.5s;
-}
-
-.btn-news:hover {
-    opacity: 0.75;
-    transition: 0.5s;
-}
-
 .p-title, .link-menu {
     color: white;
     font-family: 'Libre Caslon Text', serif;
@@ -304,8 +291,15 @@ h1, .h1 {
     color: white;
 }
 
-#btn-color {
+.btn-custom {
+    height: 4rem;
     background-color: #944f45;
+    transition: background-color 0.5s;
+}
+
+.btn-custom:hover {
+    background-color: rgba(148, 79, 69, 0.75);
+    transition: background-color 0.5s;
 }
 
 .bg-color {

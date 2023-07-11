@@ -23,17 +23,20 @@
                 <p class="h1 text-dark pt-5 title-resp">Dark Moon - Elegant Dress</p>
                 <p class="h2 text-dark fw-bold price-resp">$29.500</p>
                 <p class="h5 pt-1 cuotas-resp"><span class="discount-color">6 cuotas sin interes </span>de $4.966,66</p>
-                <form method="post" action="" class="pt-2">
-                    <label for="talle" class="form-label">TALLE</label>
-                    <select class="form-select" id="talle" name="talle">
+                <form method="POST" action="index.php?ruta=carrito" class="pt-2">
+                    <input type="hidden" name="producto_id" value="1">
+                    <input type="hidden" name="producto_nombre" value="Dark Moon - Elegant Dress">
+                    <input type="hidden" name="producto_precio" value="29.500">
+                    <label for="producto_talle" class="form-label">TALLE</label>
+                    <select class="form-select" id="talle" name="producto_talle">
                         <option value="s">S</option>
                         <option value="m">M</option>
                         <option value="l">L</option>
                         <option value="xl">XL</option>
                     </select>
-                    <label for="cantidad" class="form-label pt-3">CANTIDAD</label>
-                    <input id="cantidad" name="cantidad" type="number" placeholder="1" class="form-control" min="1">
-                    <button id="btn-color" type="submit" class="text-light fw-bold btn w-100 btn-news mt-4">Agregar al carrito</button>
+                    <label for="producto_cantidad" class="form-label pt-3">CANTIDAD</label>
+                    <input id="cantidad" name="producto_cantidad" type="number" placeholder="1" class="form-control" min="1">
+                    <button id="" type="submit" class="text-light fw-bold btn btn-custom w-100 mt-4">Agregar al carrito</button>
                 </form>
             </div>
         </div>

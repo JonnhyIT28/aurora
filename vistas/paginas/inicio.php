@@ -69,7 +69,7 @@
                     </article>
 
                     <div class="pt-5 d-flex justify-content-center">
-                        <a class="white a-white text-decoration-none" href="index.php?ruta=clothing"><button id="btn-color" type="button" class="text-light fw-bold btn mb-5 btn-news">VIEW ALL</button></a>
+                        <a class="white a-white text-decoration-none" href="index.php?ruta=clothing"><button id="" type="button" class="text-light fw-bold btn btn-custom mb-5">VIEW ALL</button></a>
                     </div>
 
                 </div>
@@ -165,7 +165,7 @@
                     </article>
 
                     <div class="pt-5 d-flex justify-content-center">
-                        <a class="white a-white text-decoration-none" href="accesorios.html"><button id="btn-color" type="button" class="text-light fw-bold btn mb-5 btn-news">VIEW ALL</button></a>
+                        <a class="white a-white text-decoration-none" href="accesorios.html"><button id="" type="button" class="text-light fw-bold btn btn-custom mb-5">VIEW ALL</button></a>
                     </div>
                     
                 </div>

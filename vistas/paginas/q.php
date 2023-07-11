@@ -4,7 +4,7 @@ if (isset($_POST['q'])){
     require_once "controladores/ctrSearch.php";
     $productos = ControladorSearch::ctrSearch($search);
     
-    echo '<div class="container pt-4">';
+    echo '<div class="container pt-4 pb-5">';
     echo '<div class="row p-4">';
     echo '<h1 class="text-center pt-5 mt-2">Resultados de la Busqueda</h1>';
     foreach ($productos as $producto) {
@@ -21,7 +21,7 @@ if (isset($_POST['q'])){
         echo '<div class="card-body">';
         echo '<p class="p-card-title card-title d-flex justify-content-center pt-1 text-center">' . $producto['nombre'] . '</p>';
         echo '<p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$' . $producto['precio'] . '</p>';
-        echo '<p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">' . $cuotas . '</span></p>';
+        echo '<p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$' . $cuotas . '</span></p>';
         echo '</div>';
         echo '</a>';
         echo '</div>';
