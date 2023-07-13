@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -191,8 +195,9 @@
                     </form>
                 </div>
             </div>
-
-            <!--OFFCANVAS CARRITO-->
+            
+            
+            <!--OFFCANVAS CARRITO
             <div class="offcanvas offcanvas-end bg-light h-100 " id="carrito-lg">
                 <div class="offcanvas-header d-flex justify-content-start border-bottom">
                     <h3 class="text-dark p-title mt-2">Tu Carrito ()</h3>
@@ -202,15 +207,16 @@
                     
                 </div>
             </div>
-
+            -->
+            
             <div class="d-flex">
                 <a href="#search-lg" class="text-decoration-none">
                     <div class="p-title white h3 logo-resp" data-bs-toggle="offcanvas" data-bs-target="#search-lg">
                         <i class="hover-op bi bi-search"></i>
                     </div>
                 </a>
-                <a href="#carrito-lg" class="text-decoration-none">
-                    <div class="p-title white h3 logo-resp" data-bs-toggle="offcanvas" data-bs-target="#carrito-lg">
+                <a href="index.php?ruta=carrito" class="text-decoration-none">
+                    <div class="p-title white h3 logo-resp">
                         <i class="hover-op bi bi-cart"></i>
                     </div>
                 </a>
@@ -236,7 +242,9 @@
             $_GET['ruta'] == "art5" ||
             $_GET['ruta'] == "art6" ||
             $_GET['ruta'] == "q" ||
-            $_GET['ruta'] == "carrito"
+            $_GET['ruta'] == "carrito" ||
+            $_GET['ruta'] == "checkout" ||
+            $_GET['ruta'] == "eliminar_producto"
         ) {
             include "vistas/paginas/" . $_GET['ruta'] . ".php";
         } else {

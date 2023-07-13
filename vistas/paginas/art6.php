@@ -20,16 +20,16 @@
             </div>
 
             <div class="col pt-1">
-                <p class="h1 text-dark pt-5">Golden Dragon Fly</p>
-                <p class="h2 text-dark fw-bold">$29.500</p>
-                <p class="h5 pt-1"><span class="discount-color">6 cuotas sin interes </span>de $4.966,66</p>
+                <p class="h1 text-dark pt-5 title-resp">Golden Dragon Fly</p>
+                <p class="h2 text-dark fw-bold price-resp">$29.500</p>
+                <p class="h5 pt-1 cuotas-resp"><span class="discount-color">6 cuotas sin interes </span>de $4.966,66</p>
                 <form method="POST" action="index.php?ruta=carrito" class="pt-4">
                     <input type="hidden" name="producto_id" value="6">
                     <input type="hidden" name="producto_nombre" value="Golden Dragon Fly">
-                    <input type="hidden" name="producto_precio" value="29.500">
+                    <input type="hidden" name="producto_precio" value="29500">
                     <label for="cantidad" class="form-label pt-3">CANTIDAD</label>
                     <input id="cantidad" name="producto_cantidad" type="number" placeholder="1" class="form-control" min="1">
-                    <button id="" type="submit" class="text-light fw-bold btn btn-custom w-100 mt-4">Agregar al carrito</button>
+                    <button type="submit" class="text-light fw-bold btn btn-custom w-100 mt-4">Agregar al carrito</button>
                 </form>
             </div>
         </div>

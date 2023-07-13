@@ -26,7 +26,7 @@
                 <form method="POST" action="index.php?ruta=carrito" class="pt-2">
                     <input type="hidden" name="producto_id" value="1">
                     <input type="hidden" name="producto_nombre" value="Dark Moon - Elegant Dress">
-                    <input type="hidden" name="producto_precio" value="29.500">
+                    <input type="hidden" name="producto_precio" value="29500">
                     <label for="producto_talle" class="form-label">TALLE</label>
                     <select class="form-select" id="talle" name="producto_talle">
                         <option value="s">S</option>
@@ -36,7 +36,7 @@
                     </select>
                     <label for="producto_cantidad" class="form-label pt-3">CANTIDAD</label>
                     <input id="cantidad" name="producto_cantidad" type="number" placeholder="1" class="form-control" min="1">
-                    <button id="" type="submit" class="text-light fw-bold btn btn-custom w-100 mt-4">Agregar al carrito</button>
+                    <button type="submit" class="text-light fw-bold btn btn-custom w-100 mt-4">Agregar al carrito</button>
                 </form>
             </div>
         </div>

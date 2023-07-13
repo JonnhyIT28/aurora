@@ -1,7 +1,7 @@
 <?php 
 
 require_once "conexion.php";
-
+/*
 class EmailCompra {
     public $nombre;
     public $precio;
@@ -22,6 +22,7 @@ class EmailCompra {
     }
 }
 
+
 // Datos del Formulario de Newsletter
 $nombre_producto = $_POST['nombre_producto'];
 $precio_producto = $_POST['precio_producto'];
@@ -33,26 +34,21 @@ if (isset ($_POST ['nombre_producto'])) {
     $email = new Email($nombre_producto, $precio_producto, $talle_producto, $cantidad_producto);
     $email->enviarCorreo();
 }
+*/
 
 class ModeloCarrito {
     
-    static public function mdlCarrito ($tabla, $datos) {
-        $query = "INSERT INTO $tabla(nombre, precio, talle, cantidad) VALUES (:nombre, :precio, :talle, :cantidad)";
+    static public function mdlCarrito ($tabla, $producto_id) {
+        $query = "SELECT nombre, precio, imagen, transicion, ruta FROM $tabla WHERE id = $producto_id";
         
         $stmt = Conexion::conectar()->prepare($query);
 
-        $stmt->bindParam(":nombre", $datos["nombre"], PDO::PARAM_STR);
-        $stmt->bindParam(":precio", $datos["precio"], PDO::PARAM_STR);
-        $stmt->bindParam(":talle", $datos["talle"], PDO::PARAM_STR);
-        $stmt->bindParam(":cantidad", $datos["cantidad"], PDO::PARAM_STR);
+        $stmt->execute();
 
-        if ($stmt->execute()){
-            return "ok";
-        } else {
-            print_r(Conexion::conectar()->errorInfo());
-        }
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
 
         $stmt->closeCursor();
+
         $stmt = null;
     }
 }
