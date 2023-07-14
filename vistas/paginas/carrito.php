@@ -13,12 +13,12 @@ if (isset($_POST['producto_id'])){
     }
 }
 
-    echo '<div class="container pt-4 pb-5">';
-    echo '<div class="row p-4">';
-    echo '<h1 class="text-center pt-5 mt-2">Tu Carrito</h1>';
+echo '<div class="container pt-4 pb-5">';
+echo '<div class="row p-4">';
+echo '<h1 class="text-center pt-5 mt-2">Tu Carrito</h1>';
 
 // Imprimir productos del carrito desde la sesión
-foreach ($_SESSION['carrito'] as $producto) {
+foreach ($_SESSION['carrito'] as $key => $producto) {
     echo '<article class="col-12 col-lg-4 px-4 border-card pt-3">';
     echo '<div class="card">';
     echo '<a class="text-decoration-none" href="index.php?ruta=' . $producto['ruta'] . '">';
@@ -29,10 +29,8 @@ foreach ($_SESSION['carrito'] as $producto) {
     echo '<div class="card-body">';
     echo '<p class="p-card-title card-title d-flex justify-content-center pt-1 text-center">' . $producto['nombre'] . '</p>';
     echo '<p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$' . $producto['precio'] . '</p>';
-    
-
     echo '<form method="post" action="index.php?ruta=eliminar_producto">';
-    echo '<input type="hidden" name="eliminar_producto_' . $producto['id'] . '" value="' . $producto['id'] . '">';
+    echo '<input type="hidden" name="eliminar_producto_id" value="' . $key . '">';
     echo '<button type="submit" class="text-light fw-bold btn btn-custom w-100 mt-4" name="eliminar_producto">Eliminar</button>';
     echo '</form>';
     echo '</div>';
@@ -41,12 +39,12 @@ foreach ($_SESSION['carrito'] as $producto) {
     echo '</article>';
 }
 
-    echo '</div>';
-    echo '</div>';
+echo '</div>';
+echo '</div>';
 
-    echo '<div class="container pt-4 pb-5">';
-    echo '<div class="row p-4">';
-    echo '<h1 class="text-center pt-5 mt-2">Precio Total: </h1>';
-    echo '</div>';
-    echo '</div>';
+echo '<div class="container pt-4 pb-5">';
+echo '<div class="row p-4">';
+echo '<h1 class="text-center pt-5 mt-2">Precio Total: </h1>';
+echo '</div>';
+echo '</div>';
 ?>
