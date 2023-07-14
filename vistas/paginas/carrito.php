@@ -44,7 +44,25 @@ echo '</div>';
 
 echo '<div class="container pt-4 pb-5">';
 echo '<div class="row p-4">';
-echo '<h1 class="text-center pt-5 mt-2">Precio Total: </h1>';
+
+$total = 0; // Variable para almacenar la suma de los precios
+
+// Calcular el precio total sumando los precios de los productos
+foreach ($_SESSION['carrito'] as $producto) {
+    $total += $producto['precio'];
+}
+echo '<h1 class="text-center pt-5 mt-2">Precio Total: $' . number_format($total, 2, ',', '.') . '</h1>';
+// Agregar el formulario para el checkout
+echo '<form method="post" action="index.php?ruta=checkout">';
+foreach ($_SESSION['carrito'] as $producto) {
+    echo '<input type="hidden" name="transicion[]" value="' . $producto['transicion'] . '">';
+    echo '<input type="hidden" name="imagenes[]" value="' . $producto['imagen'] . '">';
+    echo '<input type="hidden" name="precios[]" value="' . $producto['precio'] . '">';
+    echo '<input type="hidden" name="nombres[]" value="' . $producto['nombre'] . '">';
+}
+echo '<input type="hidden" name="precio_total" value="' . $total . '">';
+echo '<button type="submit" class="text-light fw-bold btn btn-custom w-100 mt-4">Checkout</button>';
+echo '</form>';
 echo '</div>';
 echo '</div>';
 ?>
