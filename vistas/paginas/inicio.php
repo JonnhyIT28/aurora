@@ -29,8 +29,8 @@
                                 </div>
                                 <div class="card-body">
                                     <p class="p-card-title card-title d-flex justify-content-center pt-1 text-center">DARK MOON - ELEGANT DRESS</p>
-                                    <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$29.500</p>
-                                    <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$1.499,83</span></p>
+                                    <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$15.000</p>
+                                    <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$2.500</span></p>
                                 </div>
                             </a>
                         </div>
@@ -45,8 +45,8 @@
                                 </div>
                                 <div class="card-body">
                                     <p class="p-card-title card-title d-flex justify-content-center pt-1 text-center">ANGEL - WHITE FRENCH DRESS</p>
-                                    <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$29.500</p>
-                                    <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$1.499,83</span></p>
+                                    <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$16.000</p>
+                                    <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$2.666</span></p>
                                 </div>
                             </a>
                         </div>
@@ -61,8 +61,8 @@
                                 </div>
                                 <div class="card-body">
                                     <p class="p-card-title card-title d-flex justify-content-center pt-1 text-center">FLOWER - VINTAGE DRESS</p>
-                                    <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$29.500</p>
-                                    <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span>cuotas sin interes de <span class="bold-text-l">$4.966,66</span></p>
+                                    <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$17.000</p>
+                                    <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span>cuotas sin interes de <span class="bold-text-l">$2.833</span></p>
                                 </div>
                             </a>
                         </div>
@@ -125,8 +125,8 @@
                                 </div>
                                 <div class="card-body">
                                     <p class="p-card-title card-title d-flex justify-content-center pt-1 text-center">TRAVELLER VINTAGE BAG</p>
-                                    <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$29.500</p>
-                                    <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$1.499,83</span></p>
+                                    <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$18.000</p>
+                                    <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$3.000</span></p>
                                 </div>
                             </a>
                         </div>
@@ -141,8 +141,8 @@
                                 </div>
                                 <div class="card-body">
                                     <p class="p-card-title card-title d-flex justify-content-center pt-1 text-center">FLOWER RINGS KIT</p>
-                                    <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$29.500</p>
-                                    <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$1.499,83</span></p>
+                                    <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$19.000</p>
+                                    <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$3.166</span></p>
                                 </div>
                             </a>
                         </div>
@@ -157,8 +157,8 @@
                                 </div>
                                 <div class="card-body">
                                     <p class="p-card-title card-title d-flex justify-content-center pt-1 text-center">GOLDEN DRAGON FLY</p>
-                                    <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$29.500</p>
-                                    <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span>cuotas sin interes de <span class="bold-text-l">$1.499,83</span></p>
+                                    <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$20.000</p>
+                                    <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span>cuotas sin interes de <span class="bold-text-l">$3.333</span></p>
                                 </div>
                             </a>
                         </div>

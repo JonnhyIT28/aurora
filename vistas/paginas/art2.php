@@ -21,19 +21,13 @@
 
             <div class="col pt-1">
                 <p class="h1 text-dark pt-5 title-resp">Angel - White French Dress</p>
-                <p class="h2 text-dark fw-bold price-resp">$29.500</p>
-                <p class="h5 pt-1 cuotas-resp"><span class="discount-color">6 cuotas sin interes </span>de $4.966,66</p>
+                <p class="h2 text-dark fw-bold price-resp">$16.000</p>
+                <p class="h5 pt-1 cuotas-resp"><span class="discount-color">6 cuotas sin interes </span>de $2.666</p>
                 <form method="POST" action="index.php?ruta=carrito" class="pt-2">
                     <input type="hidden" name="producto_id" value="2">
                     <input type="hidden" name="producto_nombre" value="Dark Moon - Elegant Dress">
                     <input type="hidden" name="producto_precio" value="29500">
-                    <label for="producto_talle" class="form-label">TALLE</label>
-                    <select class="form-select" id="talle" name="producto_talle">
-                        <option value="s">S</option>
-                        <option value="m">M</option>
-                        <option value="l">L</option>
-                        <option value="xl">XL</option>
-                    </select>
+                    
                     <label for="producto_cantidad" class="form-label pt-3">CANTIDAD</label>
                     <input id="cantidad" name="producto_cantidad" type="number" placeholder="1" class="form-control" min="1">
                     <button type="submit" class="text-light fw-bold btn btn-custom w-100 mt-4">Agregar al carrito</button>
@@ -60,8 +54,8 @@
                                 </div>
                                 <div class="card-body">
                                     <p class="p-card-title card-title d-flex justify-content-center pt-1">DARK MOON - ELEGANT DRESS</p>
-                                    <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$29.500</p>
-                                    <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$1.499,83</span></p>
+                                    <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$15.000</p>
+                                    <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$2.500</span></p>
                                 </div>
                             </a>
                         </div>
@@ -76,8 +70,8 @@
                                 </div>
                                 <div class="card-body">
                                     <p class="p-card-title card-title d-flex justify-content-center pt-1">TRAVELLER VINTAGE BAG</p>
-                                    <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$29.500</p>
-                                    <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$1.499,83</span></p>
+                                    <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$18.000</p>
+                                    <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$3.000</span></p>
                                 </div>
                             </a>
                         </div>
@@ -92,8 +86,8 @@
                                 </div>
                                 <div class="card-body">
                                     <p class="p-card-title card-title d-flex justify-content-center pt-1">FLOWER - VINTAGE DRESS</p>
-                                    <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$29.500</p>
-                                    <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span>cuotas sin interes de <span class="bold-text-l">$1.499,83</span></p>
+                                    <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$17.000</p>
+                                    <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span>cuotas sin interes de <span class="bold-text-l">$2.833</span></p>
                                 </div>
                             </a>
                         </div>

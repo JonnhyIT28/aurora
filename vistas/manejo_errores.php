@@ -1,7 +1,7 @@
 <?php
 
 function manejoErrores($nivel, $mensaje, $archivo, $linea) {
-    if ($nivel !== E_WARNING) {
+    if ($nivel !== E_WARNING && $nivel !== E_NOTICE && $nivel !== E_USER_NOTICE) {
         switch ($nivel) {
             case E_PARSE:
             case E_ERROR:
@@ -9,10 +9,6 @@ function manejoErrores($nivel, $mensaje, $archivo, $linea) {
             case E_COMPILE_ERROR:
             case E_USER_ERROR:
                 $tipo = "Error fatal";
-                break;
-            case E_NOTICE:
-            case E_USER_NOTICE:
-                $tipo = "Aviso";
                 break;
             default:
                 $tipo = "Desconocido";

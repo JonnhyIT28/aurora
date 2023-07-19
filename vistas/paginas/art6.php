@@ -21,8 +21,8 @@
 
             <div class="col pt-1">
                 <p class="h1 text-dark pt-5 title-resp">Golden Dragon Fly</p>
-                <p class="h2 text-dark fw-bold price-resp">$29.500</p>
-                <p class="h5 pt-1 cuotas-resp"><span class="discount-color">6 cuotas sin interes </span>de $4.966,66</p>
+                <p class="h2 text-dark fw-bold price-resp">$20.000</p>
+                <p class="h5 pt-1 cuotas-resp"><span class="discount-color">6 cuotas sin interes </span>de $3.333</p>
                 <form method="POST" action="index.php?ruta=carrito" class="pt-4">
                     <input type="hidden" name="producto_id" value="6">
                     <input type="hidden" name="producto_nombre" value="Golden Dragon Fly">
@@ -53,8 +53,8 @@
                                 </div>
                                 <div class="card-body">
                                     <p class="p-card-title card-title d-flex justify-content-center pt-1">TRAVELLER VINTAGE BAG</p>
-                                    <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$29.500</p>
-                                    <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$1.499,83</span></p>
+                                    <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$18.000</p>
+                                    <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$3.000</span></p>
                                 </div>
                             </a>
                         </div>
@@ -69,8 +69,8 @@
                                 </div>
                                 <div class="card-body">
                                     <p class="p-card-title card-title d-flex justify-content-center pt-1">FLOWER RINGS KIT</p>
-                                    <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$29.500</p>
-                                    <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$1.499,83</span></p>
+                                    <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$19.000</p>
+                                    <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$3.166</span></p>
                                 </div>
                             </a>
                         </div>
@@ -85,8 +85,8 @@
                                 </div>
                                 <div class="card-body">
                                     <p class="p-card-title card-title d-flex justify-content-center pt-1">ANGEL - WHITE FRENCH DRESS</p>
-                                    <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$29.500</p>
-                                    <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$1.499,83</span></p>
+                                    <p class="p-price card-text d-flex justify-content-center fw-bold text-dark">$16.000</p>
+                                    <p class="p-card-title card-text d-flex justify-content-center"><span class="bold-text-r">6</span> cuotas sin interes de <span class="bold-text-l">$2.666</span></p>
                                 </div>
                             </a>
                         </div>

@@ -142,8 +142,9 @@ session_start();
                         <i class="hover-op bi bi-search"></i>
                     </div>
                 </a>
-                <a href="#carrito" class="text-decoration-none">
-                    <div class="p-title white h3 logo-resp " data-bs-toggle="offcanvas" data-bs-target="#carrito">
+                <!--CARRITO--> 
+                <a href="index.php?ruta=carrito" class="text-decoration-none">
+                    <div class="p-title white h3 logo-resp">
                         <i class="hover-op bi bi-cart"></i>
                     </div>
                 </a>
@@ -196,25 +197,14 @@ session_start();
                 </div>
             </div>
             
-            
-            <!--OFFCANVAS CARRITO
-            <div class="offcanvas offcanvas-end bg-light h-100 " id="carrito-lg">
-                <div class="offcanvas-header d-flex justify-content-start border-bottom">
-                    <h3 class="text-dark p-title mt-2">Tu Carrito ()</h3>
-                    <button type="button" class="btn-close bg-light" data-bs-dismiss="offcanvas"></button>
-                </div>
-                <div class="offcanvas-body justify-content-center">
-                    
-                </div>
-            </div>
-            -->
-            
             <div class="d-flex">
                 <a href="#search-lg" class="text-decoration-none">
                     <div class="p-title white h3 logo-resp" data-bs-toggle="offcanvas" data-bs-target="#search-lg">
                         <i class="hover-op bi bi-search"></i>
                     </div>
                 </a>
+
+                <!--CARRITO--> 
                 <a href="index.php?ruta=carrito" class="text-decoration-none">
                     <div class="p-title white h3 logo-resp">
                         <i class="hover-op bi bi-cart"></i>
